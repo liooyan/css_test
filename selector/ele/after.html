@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  .exciting-text::after {
+    content: " <- EXCITING!";
+    color: green;
+    display: block;
+  }
+
+  .boring-text::after {
+    content: " <- BORING";
+    color: red;
+  }
+
+</style>
+<body>
+<p class="boring-text">Here is some plain old boring text.</p>
+<p>Here is some normal text that is neither boring nor exciting.</p>
+<p class="exciting-text">Contributing to MDN is easy and fun.</p>
+
+</body>
+</html>

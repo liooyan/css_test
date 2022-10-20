@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+  input:default {
+    box-shadow: 0 0 2px 1px coral;
+  }
+
+  input:default + label {
+    color: coral;
+  }
+
+
+</style>
+<body>
+<fieldset>
+  <legend>Favorite season</legend>
+
+  <input type="radio" name="season" id="spring" value="spring" />
+  <label for="spring">Spring</label>
+
+  <input type="radio" name="season" id="summer" value="summer" checked />
+  <label for="summer">Summer</label>
+
+  <input type="radio" name="season" id="fall" value="fall" />
+  <label for="fall">Fall</label>
+
+  <input type="radio" name="season" id="winter" value="winter" />
+  <label for="winter">Winter</label>
+</fieldset>
+
+</body>
+</html>
